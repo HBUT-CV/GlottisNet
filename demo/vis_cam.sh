@@ -1,0 +1,9 @@
+python /home/ren2/data3/ZhangYang/mmdetection_v3x_glottis/demo/vis_cam.py /home/ren2/data3/ZhangYang/mmdetection_v3x_glottis/data/coco_ins/val2017/0.png /home/ren2/data3/ZhangYang/mmdetection_v3x_glottis/configs/rtmdet/zy_rtmdet-ins_tiny_8xb32-300e_coco.py /home/ren2/data3/ZhangYang/mmdetection_v3x_glottis/work_dirs_ins/zy_rtmdet-ins_tiny_detcov0_MyBlock1_OnlyNeck_k=5_FLassign133Topk3/best_coco/bbox_mAP_epoch_27.pth 
+
+python /home/ren2/data3/ZhangYang/mmdetection_v3x_glottis/demo/boxam_vis_demo.py /home/ren2/data3/ZhangYang/mmdetection_v3x_glottis/data/coco_ins/val2017/5.png /home/ren2/data3/ZhangYang/mmdetection_v3x_glottis/configs/rtmdet/zy_rtmdet-ins_tiny_8xb32-300e_coco.py /home/ren2/data3/ZhangYang/mmdetection_v3x_glottis/work_dirs_ins/zy_rtmdet-ins_tiny_detcov0_MyBlock1_OnlyNeck_k=5_FLassign133Topk1/best_coco/bbox_mAP_epoch_28.pth --out-dir /home/ren2/data3/ZhangYang/mmdetection_v3x_glottis/demo/output
+
+# resize
+python /home/ren2/data3/ZhangYang/mmdetection_v3x_glottis/demo/boxam_vis_demo.py /home/ren2/data3/ZhangYang/mmdetection_v3x_glottis/data/coco_ins/val2017/5.png /home/ren2/data3/ZhangYang/mmdetection_v3x_glottis/configs/rtmdet/zy_rtmdet-ins_tiny_8xb32-300e_coco.py /home/ren2/data3/ZhangYang/mmdetection_v3x_glottis/work_dirs_ins/zy_rtmdet-ins_tiny_detcov0_MyBlock1_OnlyNeck_k=5_FLassign133Topk1/best_coco/bbox_mAP_epoch_28.pth --out-dir /home/ren2/data3/ZhangYang/mmdetection_v3x_glottis/demo/output
+
+# ori_size 320
+python /home/ren2/data3/ZhangYang/mmdetection_v3x_glottis/demo/boxam_vis_demo.py /home/ren2/data3/ZhangYang/mmdetection_v3x_glottis/data/coco_ins/val2017/47.png /home/ren2/data3/ZhangYang/mmdetection_v3x_glottis/configs/rtmdet/zy_rtmdet-ins_tiny_8xb32-300e_coco_320.py /home/ren2/data3/ZhangYang/mmdetection_v3x_glottis/work_dirs_ins/zy_rtmdet-ins_tiny_detcov0_MyBlock1_OnlyNeck_k=5_FLassign133Topk1/best_coco/bbox_mAP_epoch_28.pth --out-dir /home/ren2/data3/ZhangYang/mmdetection_v3x_glottis/demo/output
